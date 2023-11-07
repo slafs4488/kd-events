@@ -1,23 +1,15 @@
 import React from "react";
 import "./Services.css";
 import ServicesCard from "./ServicesCard";
-import {
-  CircularProgress,
-  Grid,
-  InputAdornment,
-  TextField,
-  Typography,
-} from "@mui/material";
 import servicesData from "./services.json";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { Margin } from "@mui/icons-material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faCircleDot } from "@fortawesome/free-solid-svg-icons";
-import service_one_img from './../assets/service-one.jpeg'
-import service_two_img from './../assets/service-two.jpeg'
-import feature_img from './../assets/features.jpeg'
+import { faCircleDot } from "@fortawesome/free-solid-svg-icons";
+import service_one_img from './../assets/service-one.webp'
+import service_two_img from './../assets/service-two.webp'
+import feature_img from './../assets/features.webp'
 
 
 function Services() {

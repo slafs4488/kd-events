@@ -5,8 +5,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import TestimonialCard from "./TestimonialCard";
 import testmonialData from "./testimonial.json";
-import img_one from "./../assets/kunal.jpeg"
-import img_two from "./../assets/neha.svg"
+import img_one from "./../assets/kunal.webp"
+import img_two from "./../assets/neha.webp"
 
 function Team() {
   return (

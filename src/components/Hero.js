@@ -1,8 +1,7 @@
 import React from "react";
 import "./Hero.css";
-import { Button } from "@mui/material";
 import { HashLink as Link } from "react-router-hash-link";
-import head_img from './../assets/head.jpeg'
+import head_img from './../assets/head.webp'
 
 function Hero() {
   return (

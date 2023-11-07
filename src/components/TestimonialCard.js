@@ -1,17 +1,19 @@
 import React from "react";
 import Rating from "@mui/material/Rating";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faEnvelope,
-  faCircleDot,
-  faUser,
-} from "@fortawesome/free-solid-svg-icons";
-import './TestimonialCard.css'
+import { faUser } from "@fortawesome/free-solid-svg-icons";
+import "./TestimonialCard.css";
 
 function TestimonialCard({ data }) {
   return (
     <div className="mb-5">
-      <Rating className="mb-3" name="read-only" value={data.rating} precision={0.5} readOnly />
+      <Rating
+        className="mb-3"
+        name="read-only"
+        value={data.rating}
+        precision={0.5}
+        readOnly
+      />
       <p>{data.review}</p>
       <div className="d-flex align-items-center">
         <FontAwesomeIcon

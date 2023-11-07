@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  Button,
-  Card,
-  CardActions,
-  CardContent,
-  CardMedia,
-  Rating,
-  Typography,
-} from "@mui/material";
+import { Card, CardContent, CardMedia, Typography } from "@mui/material";
 import "./ServicesCard.css";
 
 function ServicesCard({ image, title, subtitle }) {
@@ -24,7 +16,11 @@ function ServicesCard({ image, title, subtitle }) {
         <Typography variant="h5" fontWeight={500} gutterBottom>
           {title}
         </Typography>
-        <Typography variant="subtitle1" className="service-card-subtitle" gutterBottom>
+        <Typography
+          variant="subtitle1"
+          className="service-card-subtitle"
+          gutterBottom
+        >
           {subtitle}
         </Typography>
       </CardContent>
