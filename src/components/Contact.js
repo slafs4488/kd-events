@@ -1,7 +1,8 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./Contact.css";
-import { Button } from "@mui/material";
+import emailJS from './EmailJS.json'
+
 
 function Contact() {
   const form = useRef();
@@ -11,10 +12,10 @@ function Contact() {
 
     emailjs
       .sendForm(
-        "service_0dw3wuo",
-        "template_ri52myb",
+        emailJS.YOUR_SERVICE_ID,
+        emailJS.YOUR_TEMPLATE_ID,
         form.current,
-        "txFZvSHNC9PS5FHsF"
+        emailJS.YOUR_PUBLIC_KEY
       )
       .then(
         (result) => {
@@ -39,15 +40,14 @@ function Contact() {
         </p>
         <div className="contact-details-data">
           <h4>Call Us:</h4>
-          <p>+1234567890</p>
+          <p>+91 6366750011</p>
 
           <h4>Send Us Mail</h4>
-          <p>info@gmail.com</p>
+          <p>kdevents@gmail.com</p>
 
           <h4>Office Address:</h4>
           <p>
-            Prime height, Jagatpura <br /> Jaipur, Rajasthan <br /> Zipcode:
-            303603
+          1st Floor, Plot no 21, Manav Ashram Colony, Vasundhara Colony, Gopal Pura Mode, Jaipur, Rajasthan 302018
           </p>
         </div>
       </div>

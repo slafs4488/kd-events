@@ -5,6 +5,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import TestimonialCard from "./TestimonialCard";
 import testmonialData from "./testimonial.json";
+import img_one from "./../assets/kunal.jpeg"
+import img_two from "./../assets/neha.svg"
 
 function Team() {
   return (
@@ -15,7 +17,7 @@ function Team() {
       <div className="team-data mt-5">
         <div className="team-member d-md-flex ">
           <div className="team-member-image">
-            <img src="https://10web-site.ai/11/wp-content/uploads/sites/13/2023/11/team-member-1-scaled_TmRxX8Wg.webp" />
+          <img src={img_one} />
           </div>
           <div className="team-member-content">
             <h1>Kunal Agarwal</h1>
@@ -29,7 +31,7 @@ function Team() {
         </div>
         <div className="team-member d-md-flex">
           <div className="team-member-image">
-            <img src="https://10web-site.ai/11/wp-content/uploads/sites/13/2023/11/team-member-2-scaled_TmRxX8Wg.webp" />
+          <img src={img_two} />
           </div>
 
           <div className="team-member-content">

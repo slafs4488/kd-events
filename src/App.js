@@ -6,8 +6,7 @@ import Services from "./components/Services";
 import Team from "./components/Team";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { HashLink as Link } from "react-router-hash-link";
+import { BrowserRouter as Router} from "react-router-dom";
 
 function App() {
   return (
